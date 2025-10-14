@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    This HTML file serves two purposes:
+    1. It acts as the repository's main page (index.html) for GitHub Pages.
+    2. It contains a meta tag for an immediate, client-side redirect.
+
+    To use this for GitHub Pages:
+    1. Create a new GitHub repository (e.g., 'image-assets').
+    2. Add this index.html file to the root of the main branch.
+    3. Upload your small image files (e.g., in an 'images' folder).
+    4. Enable GitHub Pages for the repository (usually from the main branch's root).
+
+    Visitors going to the root URL (your-username.github.io/image-assets/) will be redirected.
+    Direct links to images (e.g., your-username.github.io/image-assets/images/my_image.png) will serve the files normally.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Repository - Redirecting...</title>
+
+    <!--
+    CRITICAL: The meta refresh tag below performs the automatic redirect.
+    content="0; url=..." means redirect after 0 seconds (immediately) to the specified URL.
+    -->
+    <meta http-equiv="refresh" content="0; url=https://www.tddt.org">
+
+    <!-- Optional: Add some basic styling so it doesn't look jarring if the redirect is slow or blocked. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f7f7f7;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Redirecting you automatically...</h1>
+        <p>If you are not redirected immediately, please click the link below:</p>
+        <p>
+            <a href="https://www.tddt.org">Go to Tddt.org</a>
+        </p>
+    </div>
+</body>
+</html>
